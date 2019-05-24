@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <title>
+         Latihan    
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+                * {
+                  box-sizing:border-box;
+                }
+                
+                .left {
+                  background-color:black;
+                  padding:20px;
+                  float:left;
+                  width:25%; /* The width is 20%, by default */
+                }
+                
+                .left2 {
+                  background-color:violet;
+                  padding:20px;
+                  float:left;
+                  width:25%; /* The width is 60%, by default */
+                }
+                
+                .right {
+                  background-color:blueviolet;
+                  padding:20px;
+                  float:left;
+                  width:25%; /* The width is 20%, by default */
+                }
+                
+                .right2 {
+                  background-color:maroon;
+                  padding:20px;
+                  float:left;
+                  width:25%; /* The width is 20%, by default */
+                }
+
+                .down1{
+                    background-color:aqua;
+                  padding:20px;
+                  float:left;
+                  width:50%;
+                }
+
+                .down2{
+                    background-color:lawngreen;
+                  padding:20px;
+                  float:left;
+                  width:50%;
+                }
+                /* Use a media query to add a break point at 800px: */
+                @media screen and (max-width:800px) {
+                  .left,.left2, .right,.right2 {
+                    width:50%; /* The width is 100%, when the viewport is 800px or smaller */
+                  }
+                  @media screen and (max-width:800px) {
+                  .down1,.down2 {
+                    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+                  }
+
+                }
+                </style>
+    </head>
+    <body bgcolor="">
+        <div style="background-color:lightgray ;padding:15px;">
+            <h1 style="align-content: center">DEUS</h1>
+          </div>
+          <p>
+                  <img src="foto/Deus_Temple.jpg" style="width: 100%">
+          </p>
+          <p>
+            <div class="left">
+                <h1>
+                    testing 1
+                </h1>
+            </div>
+            <div class="left2">
+                <h1>
+                    testing 2
+                </h1>    
+            </div>
+                <div class="right">
+                    <h1>
+                        testing 3
+                    </h1>
+                    </div>
+                    <div class="right2">
+                        <h1>
+                            testing 4
+                        </h1>
+                        </div>
+            </p>
+            <div class="down1">
+                    <h1>
+                            testing 5
+                        </h1>
+                </div>
+                <div class="down2">
+                        <h1>
+                            testing 6
+                        </h1>
+                    </div>
+            <p>
+
+            </p>            
+    </body>
+</html>
